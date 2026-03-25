@@ -39,10 +39,11 @@
 .upper .hero .main {
     text-align: center;
     padding: 100px 0;
+    font-size: 50px;
 }
 
 .upper .hero .text {
-    font-size: 48px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
@@ -53,6 +54,7 @@
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .lower {
@@ -73,13 +75,13 @@
     color: #333;
 }
 
-.courses-grid {
+.courses-boxes {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.course-card {
+.box {
     background: white;
     width: 320px;
     border-radius: 15px;
@@ -87,16 +89,16 @@
     border: 1px solid #f0f0f0;
 }
 
-.course-card .image-box img {
+.box .image-box img {
     width: 320px;
     height: 200px;
 }
 
-.card-body {
+.box-body {
     padding: 20px;
 }
 
-.meta-row {
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,7 +115,7 @@
     font-size: 12px;
 }
 
-.course-card h3 {
+.box h3 {
     font-size: 18px;
     margin: 15px 0;
     color: #444;
@@ -126,7 +128,7 @@
     color: gray;
 }
 
-.card-footer {
+.box-footer {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -135,8 +137,8 @@
     padding-top: 15px;
 }
 
-.card-footer img {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+.isabella{
+height: 50px;
+width: 50px;
+border-radius: 50%;
 }
