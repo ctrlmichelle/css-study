@@ -1,0 +1,67 @@
+.container {
+    background-image: url(task5imgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upper {
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    opacity: 0.8;
+}
+
+.upper a {
+    text-decoration: none;
+    color: white;
+}
+
+.upper .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.upper .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.upper .nav .journey {
+    margin: 0;
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.upper .hero {
+    text-align: center;
+    padding: 50px 0 90px;
+}
+
+.upper .hero main {
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.upper .hero text {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 10px 20px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

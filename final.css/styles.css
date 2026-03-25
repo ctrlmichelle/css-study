@@ -1,0 +1,142 @@
+.container {
+    background-image: url(task5imgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upper {
+    background-color: blueviolet;
+    color: white;
+    opacity: 0.8;
+}
+
+.upper a {
+    text-decoration: none;
+    color: white;
+}
+
+.upper .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.upper .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.upper .hero {
+    text-align: center;
+    padding: 50px 0 90px;
+}
+
+.upper .hero .main {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.upper .hero .text {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.lower {
+    background-color: #f3f4f5;
+    padding-bottom: 80px;
+}
+
+.courses-header {
+    text-align: center;
+    padding-top: 80px;
+    color: grey;
+    font-size: 12px;
+}
+
+.courses-header h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.courses-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.course-card {
+    background: white;
+    width: 320px;
+    border-radius: 15px;
+    text-align: left;
+    border: 1px solid #f0f0f0;
+}
+
+.course-card .image-box img {
+    width: 320px;
+    height: 200px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: orchid;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.star-rating {
+    color: #FDC93B;
+    font-size: 12px;
+}
+
+.course-card h3 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #444;
+}
+
+.info-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: gray;
+    padding-top: 15px;
+}
+
+.card-footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}

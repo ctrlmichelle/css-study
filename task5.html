@@ -8,10 +8,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
         .container {
-            background-color: palevioletred;
+            background-image: url(task5imgg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
             color: white;
             padding: 40px 80px 120px 80px;
             text-align: center;
+        }
+
+        .upper {
+            background-color: palevioletred;
+            color: white;
+            position: relative;
+            opacity: 0.8;
+        }
+
+        .upper a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .upper .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            padding: 10px 0;
+            border-bottom: 1px solid white;
+        }
+
+        .upper .nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .upper .nav .journey {
+            margin: 0;
+            font-size: 11px;
+            opacity: 0.8;
+        }
+
+        .upper .hero {
+            text-align: center;
+            padding: 50px 0 90px;
+        }
+
+        .upper .hero main {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+
+        .upper .hero text {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero button {
+            background-color: palevioletred;
+            color: white;
+            border: none;
+            padding: 10px 20px 20px;
+            border-radius: 20px;
+            margin-top: 20px;
         }
 
         .container .nav {
@@ -51,7 +116,7 @@
             margin-bottom: 40px;
         }
 
-        .container .content .text button {
+        .text button {
             background-color: pink;
             color: white;
             padding: 15px 35px;
@@ -155,6 +220,7 @@
     <div class="container">
         <div class="nav">
             <div>
+                <i class="fa-solid fa-gem" style="color: rgb(228, 20, 53);"></i>
                 <strong>Study Course</strong>
                 <div style="font-size: 10px;">
                     Journey to success</div>
@@ -167,19 +233,27 @@
                 <li><a href="">Pages</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <ul class="second" style="list-style: none; display: flex; gap: 15px; align-items: center; padding: 0;">
-                <li><a href=""><i class="fa-solid fa-gem" style="color: rgb(228, 20, 53);"></i> Login</a></li>
+            <ul class="second">
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i class="fa-regular fa-user"></i> login</a></li>
+                <li><a href=""><i class="fa-regular fa-moon"></i></a></li>
             </ul>
+
         </div>
 
         <div class="content">
             <div class="text">
-                <h1>50% Discount on all Popular Courses</h1>
-                <p>Take the first step to your journey to success with us</p>
-                <button>Ready to get started?</button>
+                <h1>50% Discount on all Popular <br> Courses</h1>
+                <p> Take the First Step to Your Journey to Success With Us</p>
+                <button>Ready to get started</button>
             </div>
         </div>
     </div>
+<div class="lower">
+<h4>JOIN OUR LEARN COURSES</h4>
+    </div>
+    
+        <h2>Featured Online Courses</h2>
 
     <div class="courses-section">
         <div>
